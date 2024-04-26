@@ -1,0 +1,4 @@
+- name: show fact variable
+  hosts: all
+  roles:
+    - test 
