@@ -7,4 +7,4 @@
 
 - name: Import child_role2
   import_role:
-    name: test.test
+    name: ../test/test
