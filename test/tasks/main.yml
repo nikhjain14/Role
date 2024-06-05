@@ -4,6 +4,7 @@
 - name: Print a message
   ansible.builtin.debug:
     msg: "Hello World!"
+  tags: nikhil
 
 - name: Import child_role2
   import_role:
