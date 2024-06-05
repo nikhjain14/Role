@@ -6,6 +6,6 @@
     msg: "Hello World!"
   tags: nikhil
 
-- name: Import child_role2
-  import_role:
-    name: ../test/test
+#- name: Import child_role2
+#  import_role:
+#    name: ../test/test
