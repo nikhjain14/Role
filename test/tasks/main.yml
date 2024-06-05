@@ -9,3 +9,8 @@
 #- name: Import child_role2
 #  import_role:
 #    name: ../test/test
+
+- name: Print a message
+  ansible.builtin.debug:
+    msg: "Hello, Nikhil Jain!"
+  tags: jain
