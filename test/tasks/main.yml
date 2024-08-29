@@ -15,5 +15,5 @@
     msg: "Hello, Nikhil Jain!"
   tags: jain
 
-- name: Hold the job template
-  shell: sleep 2000
+#- name: Hold the job template
+#  shell: sleep 2000
