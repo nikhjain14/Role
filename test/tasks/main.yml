@@ -14,3 +14,6 @@
   ansible.builtin.debug:
     msg: "Hello, Nikhil Jain!"
   tags: jain
+
+- name: Hold the job template
+  shell: sleep 2000
