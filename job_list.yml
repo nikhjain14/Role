@@ -5,7 +5,7 @@
   tasks:
     - name: List jobs from the controller
       ansible.controller.job_list:
-        controller_url: "https://vm255-54.gsslab.pnq2.redhat.com"  # Replace with your Ansible Controller URL
+        controller_host: "https://vm255-54.gsslab.pnq2.redhat.com"  # Replace with your Ansible Controller URL
         controller_username: "admin"     # Replace with your controller username
         controller_password: "redhat"     # Replace with your controller password
         validate_certs: false
