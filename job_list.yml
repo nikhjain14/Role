@@ -1,0 +1,17 @@
+---
+- name: Get list of jobs from Ansible Controller
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: List jobs from the controller
+      ansible.controller.job_list:
+        controller_url: "https://vm255-54.gsslab.pnq2.redhat.com"  # Replace with your Ansible Controller URL
+        controller_username: "admin"     # Replace with your controller username
+        controller_password: "redhat"     # Replace with your controller password
+        validate_certs: false
+      register: job_list
+
+    - name: Display the list of jobs
+      debug:
+        var: job_list
+
